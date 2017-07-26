@@ -1,0 +1,97 @@
+<html>
+    <head>
+	    <title>Request REST API</title>
+	    <meta charset="utf-8">
+	    <script type='text/javascript' src='/AgentWeb/libs/require/require.js' data-main='js/SidePainel.js'></script>
+	    <script type='text/javascript' src='/AgentWeb/libs/require/require.js' data-main='js/jquery-3.2.1.min.js'></script>
+	    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' crossorigin='anonymous'>	    
+	    <link rel='stylesheet' href='css/w3.css'>
+	    <script type="text/javascript">
+			function MyInboxRequest(){
+
+				var _urlrest, sessionID;
+
+				ORACLE_SERVICE_CLOUD.extension_loader.load('Incindet_Lookup_Extension','1')
+				.then(function(extensionProvider)
+					{
+					extensionProvider.getGlobalContext().then(function(globalContext)
+						{
+							_urlrest = globalContext.getInterfaceServiceUrl("REST");
+
+							globalContext.getSessionToken().then(
+							   function(sessionToken){
+							    sessionID = sessionToken;
+							    console.log("URL: " + _urlrest);							    
+							    console.log("Session: " + sessionID);
+
+							    MyInboxReportAPI(_urlrest, sessionID);
+
+							   });
+						}
+					);
+					}
+				);				
+
+				
+			}
+
+			function MyInboxReportAPI(restUrl, sessionID)
+			{
+				var xhr = new XMLHttpRequest();
+				var param = '{"id": 100752}';	
+				
+				xhr.open("post", restUrl + "/connect/v1.3/analyticsReportResults");
+				xhr.setRequestHeader("Authorization", "Session " + sessionID);
+				xhr.onload = function() {
+					var obj = JSON.parse(xhr.responseText);										
+					MyInboxPanel(obj);
+				}
+				xhr.send(param);
+			}
+
+			function MyInboxPanel(arr) {
+				
+				var text = "";
+				var i = 0;
+
+				while (i < arr.rows.length){									
+
+					text += '<a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom w3-hover-light-grey" onclick="OpenWorkspace('+ arr.rows[i][0] +')";w3_close();">'					
+						+ '<div class="w3-container">'
+					    	+ '<h6 class="w3-left-align">'+ arr.rows[i][1] +'</h6>'
+					    	+ '<p class="w3-left-align" style="word-break: break-all; word-wrap: break-word;">'+ arr.rows[i][3] +'</p>'
+						+ '</div>'						
+						+'</a>';
+
+					i++;					
+				}
+
+				document.getElementById('legend').innerHTML = '<div class="w3-hide w3-animate-left w3-show">' + text + '</div>';
+				document.getElementById('MyInboxTotal').innerHTML = '(' + arr.rows.length + ')';
+			}
+
+			function OpenWorkspace(objectID){
+				ORACLE_SERVICE_CLOUD.extension_loader.load("CUSTOM_APP_ID" , "1")
+				.then(function(extensionProvider)
+					{
+						extensionProvider.registerWorkspaceExtension(function(WorkspaceRecord)
+						{		
+							WorkspaceRecord.editWorkspaceRecord('Incident',objectID); 					
+						});
+					});
+				function callbackFunction(CloseHandler)
+					{
+					// Perform some operation after opening the workspace record.
+					}
+			}
+
+	    </script>
+    <head>
+    <body>
+      <div class="w3-panel w3-blue-grey w3-display-container">
+	    <i class="fa fa-refresh w3-button w3-display-topright" aria-hidden="true" onclick="MyInboxRequest();"></i>
+	    <p>My Inbox <span id="MyInboxTotal"></span></p>
+	  </div>    	    
+	<div id="legend"></div>	
+    </body>
+</html>

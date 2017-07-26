@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<analytics_core xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ac_id xmlns="urn:obj.api.rightnow.com">100752</ac_id>
+  <ac_public xmlns="urn:obj.api.rightnow.com">false</ac_public>
+  <ac_type xmlns="urn:obj.api.rightnow.com">1</ac_type>
+  <aux xmlns="urn:obj.api.rightnow.com">1.0.1,1.42.1,1.43.1,1.0.2,1.31.2,1.0.3,1.32.3,1.0.53,1.0.126,1.0.9,1.5.9,1.0.10043,1.0.10046</aux>
+  <cdate_offset xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <co_version xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <created xmlns="urn:obj.api.rightnow.com">2017-07-26T18:13:03Z</created>
+  <file_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <filters xmlns="urn:obj.api.rightnow.com">
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>1</data_type>
+      <fltr_id>1</fltr_id>
+      <oper>10</oper>
+      <optl_id>4</optl_id>
+      <opts>0</opts>
+      <revision xsi:nil="true" />
+      <type>1</type>
+      <val1>incidents.assgn_acct_id</val1>
+      <val1_attrs>131073</val1_attrs>
+      <val1_col_refs>incidents.assgn_acct_id;1</val1_col_refs>
+      <val2>~logged_in~</val2>
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;assgn_acct_id&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;assgn_acct_id&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>5</data_type>
+      <fltr_id>2</fltr_id>
+      <oper>19</oper>
+      <optl_id xsi:nil="true" />
+      <opts>1</opts>
+      <revision>2</revision>
+      <type>1</type>
+      <val1>incidents.search_thread</val1>
+      <val1_attrs>32785</val1_attrs>
+      <val1_col_refs>incidents.search_thread;1</val1_col_refs>
+      <val2 xsi:nil="true" />
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelId&gt;8677&lt;/LabelId&gt;
+  &lt;/Prompt&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;search_thread&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>1</data_type>
+      <fltr_id>3</fltr_id>
+      <oper>10</oper>
+      <optl_id>19</optl_id>
+      <opts>1</opts>
+      <revision>3</revision>
+      <type>1</type>
+      <val1>incidents.status_id</val1>
+      <val1_attrs>131073</val1_attrs>
+      <val1_col_refs>incidents.status_id;1</val1_col_refs>
+      <val2>1;102;103;104;8</val2>
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelId&gt;4668&lt;/LabelId&gt;
+  &lt;/Prompt&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;status_id&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+  </filters>
+  <fltr_expr xmlns="urn:obj.api.rightnow.com">1 2 &amp; 3 &amp;</fltr_expr>
+  <folder_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <image xmlns="urn:obj.api.rightnow.com">6</image>
+  <interface_id xmlns="urn:obj.api.rightnow.com">1</interface_id>
+  <items xmlns="urn:obj.api.rightnow.com" />
+  <label xmlns="urn:obj.api.rightnow.com">
+    <lbl_item>
+      <label>My_Inbox_BUI_Adoption</label>
+      <lang_id>1</lang_id>
+    </lbl_item>
+  </label>
+  <nodes xmlns="urn:obj.api.rightnow.com">
+    <node_item>
+      <branch_col_link_idx xsi:nil="true" />
+      <branch_tbl_idx xsi:nil="true" />
+      <branch_type xsi:nil="true" />
+      <charts />
+      <cols>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>1</col_id>
+          <col_rf>1</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>3</data_type>
+          <display_order>1</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.i_id</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>incidents.i_id;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Auto&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;10071&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;NumberFormat&gt;
+    &lt;NumberType&gt;Number&lt;/NumberType&gt;
+  &lt;/NumberFormat&gt;
+  &lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Far&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>2</col_id>
+          <col_rf>2</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>2</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts>0</opts>
+          <rpt_links />
+          <sort_direction>1</sort_direction>
+          <sort_order>2</sort_order>
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.ref_no</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>incidents.ref_no;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;4651&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;13.5930052&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+  &lt;URLText /&gt;
+  &lt;URLTarget /&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>3</col_id>
+          <col_rf>3</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>3</display_order>
+          <group_order xsi:nil="true" />
+          <max_len>255</max_len>
+          <min_vuse>157</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,11,if(substr(incidents.subject,1, 8)='Feedback',12,if(incidents.chan_id=11,1,if(incidents.chan_id=1001,2,if(incidents.source_lvl1 = 32007,13,if(incidents.source_lvl1 = 32017,14)))))))))))))))))))</val>
+          <val_attrs>2</val_attrs>
+          <val_col_refs>incidents.subject;1:incidents.source_lvl2.10;1:incidents.chan_id.10;1:incidents.source_lvl1.10;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Auto&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Channel&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Center&lt;/DataAlignment&gt;
+  &lt;ConditionalFormats&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;284&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;285&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;3&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;3&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;286&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;4&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;4&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;287&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;5&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;5&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;288&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;6&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;6&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;289&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;7&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;7&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;290&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;8&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;8&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;291&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;9&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;9&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;292&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;10&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;11&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;294&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;11&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10,if(substr(incidents.subject,1, 8)='Feedback',12)))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;12&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;309&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;12&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10,if(substr(incidents.subject,1, 8)='Feedback',12)))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;13&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;323&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;13&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;1&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,11,if(substr(incidents.subject,1, 8)='Feedback',12,if(incidents.chan_id=11,1,if(incidents.chan_id=1001,2,if(incidents.source_lvl1 = 32007,13,if(incidents.source_lvl1 = 32017,14)))))))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xmlns="urn:obj.api.rightnow.com"&gt;14&lt;/val2&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;325&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+    &lt;ac_exception&gt;
+      &lt;col_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;e_id xmlns="urn:obj.api.rightnow.com"&gt;14&lt;/e_id&gt;
+      &lt;oper xmlns="urn:obj.api.rightnow.com"&gt;15&lt;/oper&gt;
+      &lt;optl_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;opts xmlns="urn:obj.api.rightnow.com"&gt;1027&lt;/opts&gt;
+      &lt;val1 xmlns="urn:obj.api.rightnow.com"&gt;to_char(if(substr(incidents.subject,1, 7)='Twitter',1,if(substr(incidents.subject,1, 8)='Facebook',2,if(substr(incidents.subject,1, 7)='YouTube',3,if(incidents.source_lvl2=3001,4,if(incidents.source_lvl2=1001,5,if(incidents.chan_id=3,5,if(incidents.source_lvl2=5001,6,if(incidents.source_lvl2 = 1017,7,if(incidents.source_lvl2 = 5002,7,if(incidents.source_lvl2 = 9002,8,if(substr(incidents.subject,17, 8)='Fan Page',2,if(substr(incidents.subject,1, 8)='Rightnow',9,if(incidents.source_lvl2 = 6006,10))))))))))))))&lt;/val1&gt;
+      &lt;val1_attrs xmlns="urn:obj.api.rightnow.com"&gt;2&lt;/val1_attrs&gt;
+      &lt;val2 xsi:nil="true" xmlns="urn:obj.api.rightnow.com" /&gt;
+      &lt;xml_data xmlns="urn:obj.api.rightnow.com"&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;ImageId&amp;gt;293&amp;lt;/ImageId&amp;gt;
+  &amp;lt;Style&amp;gt;
+    &amp;lt;AllCaps&amp;gt;false&amp;lt;/AllCaps&amp;gt;
+    &amp;lt;ForeColorString&amp;gt;FF444444&amp;lt;/ForeColorString&amp;gt;
+    &amp;lt;BorderBottom&amp;gt;
+      &amp;lt;Style&amp;gt;Solid&amp;lt;/Style&amp;gt;
+      &amp;lt;Width&amp;gt;1&amp;lt;/Width&amp;gt;
+      &amp;lt;ColorString&amp;gt;FFC0C0C0&amp;lt;/ColorString&amp;gt;
+    &amp;lt;/BorderBottom&amp;gt;
+    &amp;lt;Padding&amp;gt;
+      &amp;lt;Bottom&amp;gt;2&amp;lt;/Bottom&amp;gt;
+      &amp;lt;Left&amp;gt;7&amp;lt;/Left&amp;gt;
+      &amp;lt;Right&amp;gt;7&amp;lt;/Right&amp;gt;
+      &amp;lt;Top&amp;gt;2&amp;lt;/Top&amp;gt;
+    &amp;lt;/Padding&amp;gt;
+    &amp;lt;Spacing&amp;gt;0&amp;lt;/Spacing&amp;gt;
+    &amp;lt;FontSize&amp;gt;9&amp;lt;/FontSize&amp;gt;
+    &amp;lt;FontStyle&amp;gt;Regular&amp;lt;/FontStyle&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Segoe UI&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;StyleType&amp;gt;Data&amp;lt;/StyleType&amp;gt;
+    &amp;lt;Sequence&amp;gt;1&amp;lt;/Sequence&amp;gt;
+  &amp;lt;/Style&amp;gt;
+  &amp;lt;TabDatamark&amp;gt;Custom&amp;lt;/TabDatamark&amp;gt;
+&amp;lt;/ExceptionXmlData&amp;gt;&lt;/xml_data&gt;
+    &lt;/ac_exception&gt;
+  &lt;/ConditionalFormats&gt;
+  &lt;URLText /&gt;
+  &lt;URLTarget /&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>4</col_id>
+          <col_rf>4</col_rf>
+          <comp_opts>0</comp_opts>
+          <data_type>5</data_type>
+          <display_order>4</display_order>
+          <group_order xsi:nil="true" />
+          <max_len>0</max_len>
+          <min_vuse>223</min_vuse>
+          <opts>0</opts>
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts>0</trend_opts>
+          <type>1</type>
+          <val>incidents.subject</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>incidents.subject;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;4700&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;24.64229&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+  &lt;FormatOptions&gt;DisplayNullValuesBlank&lt;/FormatOptions&gt;
+  &lt;Description&gt;
+    &lt;LabelId&gt;20994&lt;/LabelId&gt;
+  &lt;/Description&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>5</col_id>
+          <col_rf>5</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>5</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>157</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>contacts.full_name</val>
+          <val_attrs>17</val_attrs>
+          <val_col_refs>contacts.full_name;2</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Contact&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;19.71383&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+  &lt;URLText /&gt;
+  &lt;URLTarget /&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>6</col_id>
+          <col_rf>6</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>1</data_type>
+          <display_order>6</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>contacts.c$vip</val>
+          <val_attrs>131081</val_attrs>
+          <val_col_refs>contacts.c$vip;2</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Auto&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;VIP&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>7</col_id>
+          <col_rf>7</col_rf>
+          <comp_opts>0</comp_opts>
+          <data_type>1</data_type>
+          <display_order>7</display_order>
+          <group_order xsi:nil="true" />
+          <max_len>0</max_len>
+          <min_vuse>223</min_vuse>
+          <opts>0</opts>
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts>0</trend_opts>
+          <type>1</type>
+          <val>incidents.status_id</val>
+          <val_attrs>131073</val_attrs>
+          <val_col_refs>incidents.status_id;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;4668&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;13.5135136&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+  &lt;FormatOptions&gt;DisplayNullValuesBlank&lt;/FormatOptions&gt;
+  &lt;Description&gt;
+    &lt;LabelId&gt;20456&lt;/LabelId&gt;
+  &lt;/Description&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>8</col_id>
+          <col_rf>8</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>1</data_type>
+          <display_order>8</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.queue_id</val>
+          <val_attrs>131073</val_attrs>
+          <val_col_refs>incidents.queue_id;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;7319&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;15.81876&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>9</col_id>
+          <col_rf>9</col_rf>
+          <comp_opts>0</comp_opts>
+          <data_type>4</data_type>
+          <display_order>9</display_order>
+          <group_order xsi:nil="true" />
+          <max_len>0</max_len>
+          <min_vuse>223</min_vuse>
+          <opts>0</opts>
+          <rpt_links />
+          <sort_direction>1</sort_direction>
+          <sort_order>1</sort_order>
+          <trend_opts>0</trend_opts>
+          <type>1</type>
+          <val>incidents.rel_due</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>incidents.rel_due;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;10048&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;12.7186012&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+  &lt;DateFormatType&gt;DateTime&lt;/DateFormatType&gt;
+  &lt;FormatOptions&gt;DisplayNullValuesBlank&lt;/FormatOptions&gt;
+  &lt;Description&gt;
+    &lt;LabelId&gt;15515&lt;/LabelId&gt;
+  &lt;/Description&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>10</col_id>
+          <col_rf>10</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>3</data_type>
+          <display_order>10</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>133</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.match_wt</val>
+          <val_attrs>17</val_attrs>
+          <val_col_refs>incidents.match_wt;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Auto&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;5065&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;NumberFormat&gt;
+    &lt;NumberType&gt;Number&lt;/NumberType&gt;
+  &lt;/NumberFormat&gt;
+  &lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Far&lt;/DataAlignment&gt;
+  &lt;FormatOptions&gt;Hidden&lt;/FormatOptions&gt;
+  &lt;Description&gt;
+    &lt;LabelId&gt;20818&lt;/LabelId&gt;
+  &lt;/Description&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+      </cols>
+      <excepts>
+        <excepts_item>
+          <chart_line_color xsi:nil="true" />
+          <col_id>9</col_id>
+          <col_refs>incidents.rel_due;1</col_refs>
+          <data_type>3</data_type>
+          <e_id>1</e_id>
+          <oper>1</oper>
+          <optl_id xsi:nil="true" />
+          <opts>43</opts>
+          <val1>if(date_diff(incidents.rel_due,sysdate()) &lt; 0,1,0)</val1>
+          <val1_attrs>2</val1_attrs>
+          <val2>1</val2>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ImageColorString&gt;FFFF0000&lt;/ImageColorString&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Overdue&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;Style&gt;
+    &lt;AllCaps&gt;false&lt;/AllCaps&gt;
+    &lt;ForeColorString&gt;FFFF0000&lt;/ForeColorString&gt;
+    &lt;Padding&gt;
+      &lt;Bottom&gt;0&lt;/Bottom&gt;
+      &lt;Left&gt;0&lt;/Left&gt;
+      &lt;Right&gt;0&lt;/Right&gt;
+      &lt;Top&gt;0&lt;/Top&gt;
+    &lt;/Padding&gt;
+    &lt;Spacing&gt;0&lt;/Spacing&gt;
+    &lt;FontSize&gt;9&lt;/FontSize&gt;
+    &lt;FontStyle&gt;Bold&lt;/FontStyle&gt;
+    &lt;FontFamily&gt;Segoe UI&lt;/FontFamily&gt;
+    &lt;StyleType&gt;None&lt;/StyleType&gt;
+    &lt;Sequence&gt;0&lt;/Sequence&gt;
+  &lt;/Style&gt;
+  &lt;TabDatamark&gt;Flag&lt;/TabDatamark&gt;
+&lt;/ExceptionXmlData&gt;</xml_data>
+        </excepts_item>
+        <excepts_item>
+          <chart_line_color xsi:nil="true" />
+          <col_id>9</col_id>
+          <col_refs>incidents.rel_due;1</col_refs>
+          <data_type>3</data_type>
+          <e_id>2</e_id>
+          <oper>1</oper>
+          <optl_id xsi:nil="true" />
+          <opts>43</opts>
+          <val1>if( (date_diff(incidents.rel_due,sysdate()) &gt; 0 &amp; (date_diff(incidents.rel_due,sysdate()) &lt; 3600) ),1,0)</val1>
+          <val1_attrs>2</val1_attrs>
+          <val2>1</val2>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ImageColorString&gt;FFFF8040&lt;/ImageColorString&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Within 1 hour of SLA&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;Style&gt;
+    &lt;AllCaps&gt;false&lt;/AllCaps&gt;
+    &lt;ForeColorString&gt;FFFF8040&lt;/ForeColorString&gt;
+    &lt;Padding&gt;
+      &lt;Bottom&gt;0&lt;/Bottom&gt;
+      &lt;Left&gt;0&lt;/Left&gt;
+      &lt;Right&gt;0&lt;/Right&gt;
+      &lt;Top&gt;0&lt;/Top&gt;
+    &lt;/Padding&gt;
+    &lt;Spacing&gt;0&lt;/Spacing&gt;
+    &lt;FontSize&gt;8&lt;/FontSize&gt;
+    &lt;FontStyle&gt;Bold&lt;/FontStyle&gt;
+    &lt;FontFamily&gt;Segoe UI&lt;/FontFamily&gt;
+    &lt;StyleType&gt;None&lt;/StyleType&gt;
+    &lt;Sequence&gt;0&lt;/Sequence&gt;
+  &lt;/Style&gt;
+  &lt;TabDatamark&gt;Check&lt;/TabDatamark&gt;
+&lt;/ExceptionXmlData&gt;</xml_data>
+        </excepts_item>
+        <excepts_item>
+          <chart_line_color xsi:nil="true" />
+          <col_id>9</col_id>
+          <col_refs>incidents.rel_due;1</col_refs>
+          <data_type>3</data_type>
+          <e_id>3</e_id>
+          <oper>1</oper>
+          <optl_id xsi:nil="true" />
+          <opts>43</opts>
+          <val1>if( (date_diff(incidents.rel_due,sysdate()) &gt; 3600 &amp; (date_diff(incidents.rel_due,sysdate()) &lt; 7200) ),1,0)</val1>
+          <val1_attrs>2</val1_attrs>
+          <val2>1</val2>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ExceptionXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ImageColorString&gt;FF800080&lt;/ImageColorString&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Within 2 hours of SLA&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;Style&gt;
+    &lt;AllCaps&gt;false&lt;/AllCaps&gt;
+    &lt;ForeColorString&gt;FF800080&lt;/ForeColorString&gt;
+    &lt;Padding&gt;
+      &lt;Bottom&gt;0&lt;/Bottom&gt;
+      &lt;Left&gt;0&lt;/Left&gt;
+      &lt;Right&gt;0&lt;/Right&gt;
+      &lt;Top&gt;0&lt;/Top&gt;
+    &lt;/Padding&gt;
+    &lt;Spacing&gt;0&lt;/Spacing&gt;
+    &lt;FontSize&gt;9&lt;/FontSize&gt;
+    &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+    &lt;FontFamily&gt;Segoe UI&lt;/FontFamily&gt;
+    &lt;StyleType&gt;None&lt;/StyleType&gt;
+    &lt;Sequence&gt;0&lt;/Sequence&gt;
+  &lt;/Style&gt;
+  &lt;TabDatamark&gt;Circle&lt;/TabDatamark&gt;
+&lt;/ExceptionXmlData&gt;</xml_data>
+        </excepts_item>
+      </excepts>
+      <filters />
+      <fltr_expr xsi:nil="true" />
+      <group_by_col_idx xsi:nil="true" />
+      <group_type>0</group_type>
+      <having_expr xsi:nil="true" />
+      <having_filters />
+      <n_id>1</n_id>
+      <opts>0</opts>
+      <parent_node_idx xsi:nil="true" />
+      <row_limit>1000</row_limit>
+      <scripts />
+      <starting_level xsi:nil="true" />
+      <style_id>12</style_id>
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;NodeXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Sections&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;75&lt;/Height&gt;
+      &lt;SectionType&gt;DockedFilters&lt;/SectionType&gt;
+      &lt;StyleType&gt;DockedFiltersArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Fields&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;1&lt;/Bottom&gt;
+            &lt;Left&gt;1&lt;/Left&gt;
+            &lt;Right&gt;1&lt;/Right&gt;
+            &lt;Top&gt;0&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;CurrentDate&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Top Right&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Far&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;TextType&gt;CurrentDate&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+      &lt;/Fields&gt;
+      &lt;Height&gt;25&lt;/Height&gt;
+      &lt;SectionType&gt;PageHeader&lt;/SectionType&gt;
+      &lt;StyleType&gt;PageHeader&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Fields&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;1&lt;/Bottom&gt;
+            &lt;Left&gt;1&lt;/Left&gt;
+            &lt;Right&gt;1&lt;/Right&gt;
+            &lt;Top&gt;0&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;Title&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Top Left Right&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Near&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;Text&gt;
+            &lt;LabelId&gt;8698&lt;/LabelId&gt;
+          &lt;/Text&gt;
+          &lt;TextType&gt;Title&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;1&lt;/Bottom&gt;
+            &lt;Left&gt;1&lt;/Left&gt;
+            &lt;Right&gt;1&lt;/Right&gt;
+            &lt;Top&gt;1&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;SubTitle&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Bottom Left Right&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Near&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;Text&gt;
+            &lt;LabelStr&gt;Sub Title&lt;/LabelStr&gt;
+          &lt;/Text&gt;
+          &lt;TextType&gt;SubTitle&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+      &lt;/Fields&gt;
+      &lt;Height&gt;80&lt;/Height&gt;
+      &lt;SectionType&gt;ReportHeader&lt;/SectionType&gt;
+      &lt;StyleType&gt;ReportHeader&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;-1&lt;/Height&gt;
+      &lt;SectionType&gt;SearchCriteria&lt;/SectionType&gt;
+      &lt;StyleType&gt;SearchCriteriaArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;-1&lt;/Height&gt;
+      &lt;SectionType&gt;Descriptions&lt;/SectionType&gt;
+      &lt;StyleType&gt;DefinitionArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;250&lt;/Height&gt;
+      &lt;SectionType&gt;Charts&lt;/SectionType&gt;
+      &lt;StyleType&gt;ChartArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;-1&lt;/Height&gt;
+      &lt;SectionType&gt;DataArea&lt;/SectionType&gt;
+      &lt;StyleType&gt;DataArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Fields&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;1&lt;/Bottom&gt;
+            &lt;Left&gt;1&lt;/Left&gt;
+            &lt;Right&gt;1&lt;/Right&gt;
+            &lt;Top&gt;0&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;RecordCounts&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Top Left&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Near&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;TextType&gt;RecordCount&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+      &lt;/Fields&gt;
+      &lt;Height&gt;40&lt;/Height&gt;
+      &lt;SectionType&gt;ReportFooter&lt;/SectionType&gt;
+      &lt;StyleType&gt;ReportFooter&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;-1&lt;/Height&gt;
+      &lt;SectionType&gt;Exceptions&lt;/SectionType&gt;
+      &lt;StyleType&gt;ExceptionsArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Fields&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;1&lt;/Bottom&gt;
+            &lt;Left&gt;1&lt;/Left&gt;
+            &lt;Right&gt;1&lt;/Right&gt;
+            &lt;Top&gt;0&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;PageNumber&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Top Right&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Far&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;TextType&gt;PageNumber&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+      &lt;/Fields&gt;
+      &lt;Height&gt;29&lt;/Height&gt;
+      &lt;SectionType&gt;PageFooter&lt;/SectionType&gt;
+      &lt;StyleType&gt;PageFooter&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+  &lt;/Sections&gt;
+  &lt;PageWidthOptions&gt;
+    &lt;WidthType&gt;FitInWindow&lt;/WidthType&gt;
+  &lt;/PageWidthOptions&gt;
+  &lt;PageReport&gt;false&lt;/PageReport&gt;
+  &lt;Name&gt;
+    &lt;LabelId&gt;6836&lt;/LabelId&gt;
+  &lt;/Name&gt;
+  &lt;SearchCriteriaStyle&gt;None&lt;/SearchCriteriaStyle&gt;
+  &lt;OutputDescriptionStyle&gt;Rollover&lt;/OutputDescriptionStyle&gt;
+  &lt;DisplayOptions&gt;ShowDataAreaAsGrid&lt;/DisplayOptions&gt;
+  &lt;Description&gt;
+    &lt;LabelId&gt;16362&lt;/LabelId&gt;
+  &lt;/Description&gt;
+  &lt;RowLimitDisplayInSearchCriteria&gt;true&lt;/RowLimitDisplayInSearchCriteria&gt;
+  &lt;PageSettings&gt;
+    &lt;PrintMargin&gt;Normal&lt;/PrintMargin&gt;
+    &lt;Landscape&gt;false&lt;/Landscape&gt;
+    &lt;PrintToFit&gt;false&lt;/PrintToFit&gt;
+  &lt;/PageSettings&gt;
+&lt;/NodeXmlData&gt;</xml_data>
+    </node_item>
+  </nodes>
+  <notes xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <opts xmlns="urn:obj.api.rightnow.com">32807</opts>
+  <owner_acct_id xmlns="urn:obj.api.rightnow.com">481</owner_acct_id>
+  <params xmlns="urn:obj.api.rightnow.com" />
+  <perms xmlns="urn:obj.api.rightnow.com">
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>2</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>19</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>21</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>22</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>23</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>26</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>27</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>28</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>30</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>31</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>32</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>33</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>36</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>37</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>38</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>39</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>40</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>44</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>47</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>48</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>49</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>50</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>52</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>53</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>54</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>55</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>56</profile_id>
+    </perm_item>
+  </perms>
+  <rpt xmlns="urn:obj.api.rightnow.com" />
+  <run_vals xmlns="urn:obj.api.rightnow.com" />
+  <schedules xmlns="urn:obj.api.rightnow.com" />
+  <style_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <tables xmlns="urn:obj.api.rightnow.com">
+    <table_item>
+      <alias>incidents</alias>
+      <join_def_enum xsi:nil="true" />
+      <join_def_idx xsi:nil="true" />
+      <join_filters />
+      <join_fltr_expr xsi:nil="true" />
+      <join_to_tbl_idx xsi:nil="true" />
+      <join_type xsi:nil="true" />
+      <tbl>1</tbl>
+      <tbl_id>1</tbl_id>
+    </table_item>
+    <table_item>
+      <alias>contacts</alias>
+      <join_def_enum>incidents$1$c_id$$contacts$2$c_id</join_def_enum>
+      <join_def_idx>25</join_def_idx>
+      <join_filters />
+      <join_fltr_expr xsi:nil="true" />
+      <join_to_tbl_idx>0</join_to_tbl_idx>
+      <join_type>1</join_type>
+      <tbl>2</tbl>
+      <tbl_id>2</tbl_id>
+    </table_item>
+  </tables>
+  <time_zone xmlns="urn:obj.api.rightnow.com">2</time_zone>
+  <updated xmlns="urn:obj.api.rightnow.com">2017-07-26T18:14:54Z</updated>
+  <version xmlns="urn:obj.api.rightnow.com">0</version>
+  <xml_data xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <xml_report xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+</analytics_core>
+Version: 
+KI9z0ElPCLxXUxIDeQKsU7I2w9SaM7snPQ==
