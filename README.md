@@ -1,4 +1,4 @@
-# OSvC My Inbox Side Panel
+# OSvC My Inbox in a Left Side Panel
 
 OSvC (Oracle Service Cloud) Browser Interface provides a powerful "extensibility framework".
 
