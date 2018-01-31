@@ -18,7 +18,7 @@ Take a look at this example.
 
 - [Download](https://github.com/eferreira07/OSvC-My-Inbox-Side-Panel/archive/master.zip) the master zip.
 - Then extract "OSvC-My-Inbox-Side-Panel-master.zip" into your folder.
-- Open your Oracle Service Cloud console and import the report "My_Inbox_BUI_Adoption 100752.xml". You can find the exported report where you extracted the above zip file. **If it doesn't work, you can create a new report based in standard "My Inbox" report.**
+- Open your Oracle Service Cloud console and import the report "My_Inbox_BUI_Adoption 100752.xml". You can find the exported report where you extracted the above zip file. **If it doesn't work, you can create a new report based in standard "My Inbox" report. Here is the report definition(https://github.com/eferreira07/OSvC-My-Inbox-Side-Panel/blob/master/My_Inbox_BUI.pdf)**
 - Follow the steps below in order to import the exported report:
 - <p align="center"><img src ="https://github.com/eferreira07/OSvC-My-Inbox-Side-Panel/blob/master/img/import%20report.gif"/></p>
 - Save the report created and grab the report id. We will use the report id to update the add-in source code.
